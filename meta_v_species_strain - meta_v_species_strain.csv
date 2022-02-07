@@ -1,0 +1,66 @@
+sample#,reference,sample name,sample#,species,strain,Ref Number,GFF File Name
+27,GCA_000172635.fna,D20-160027,27,Alteromonas macleodii,ATCC 27126 (alt),GCA_000172635,GCF_000172635.2_ASM17263v2_genomic.gff
+28,GCF_001578515.1_ASM157851v1_genomic.fna.gz,D20-160028,28,Alteromonas macleodii,Hot1A3,GCF_001578515.1,GCF_001578515.1_ASM157851v1_genomic.gff
+29,GCA_000299995.fna,D20-160029,29,Alteromonas macleodii,BS11,GCA_000299995,GCF_000299995.1_ASM29999v1_genomic.gff
+30,GCF_000310085.1_ASM31008v1_genomic.fna.gz,D20-160030,30,Alteromonas mediterraneae,DE,GCF_000310085.1,GCF_000310085.1_ASM31008v1_genomic.gff
+31,2545824627.fna,D20-160031,31,Alteromonas macleodii 'Aegean Sea MED64'  DSM 26499,DSM 26499,,
+32,Arenibacter_algicola_SMS7.fna,D20-160032,32,Arenibacter algicola strain SMS7,SMS7,,
+33,GCF_000382265.1_ASM38226v1_genomic.fna.gz,D20-160033,33,Loktanella vestfoldensis,SMR4,,
+34,GCF_004102925.1_ASM410292v1_genomic.fna.gz,D20-160034,34,Brevundimonas diminuta,ATCC 19146,GCA_004102925.1,GCF_004102925.1_ASM410292v1_genomic.gff
+35,GCA_000018145.fna,D20-160035,35,Dinoroseobacter shibae,DFL12,GCA_000018145,GCF_000018145.1_ASM1814v1_genomic.gff
+36,GCA_000060345.fna,D20-160036,36,Gramella forsetii,FORS,GCA_000060345,GCF_000060345.1_ASM6034v1_genomic.gff
+37,650377991.fna,D20-160037,37,Marinobacter adhaerens,HP15,,
+38,2506210002.fna,D20-160038,38,Marinomonas mediterranea,MMB1,,
+40,GCF_000012905.2_ASM1290v2_genomic.fna.gz,D20-160040,40,Rhodobacter sphaeroides,ATCC BAA-808,GCF_000012905.2,GCF_000012905.2_ASM1290v2_genomic.gff
+41,GCF_002080415.1_ASM208041v1_genomic.fna.gz,D20-160041,41,Roseovarius mucosus (Luca2),Roseo,GCF_002080415.1,GCF_002080415.1_ASM208041v1_genomic.gff
+41,Roseovarius_mucosus_SMR3.fna,D20-160041,41,Roseovarius mucosus (Luca2),Roseo,,
+42,GCA_000011965.fna,D20-160042,42,Ruegeria pomeroyi,DSS-3,GCA_000011965,GCF_000011965.2_ASM1196v2_genomic.gff
+43,GCA_000019525.fna,D20-160043,43,Shewanella woodyi,Woodyi,GCA_000019525,GCF_000019525.1_ASM1952v1_genomic.gff
+44,Sphingorhabdus_flavimaris_SMR4y.fna,D20-160044,44,Sphingorhabdus flavimaris,SMR4y,,
+45,GCF_002222635.1_ASM222263v1_genomic.fna.gz,D20-160045,45,Sulfitobacter pseudonitzschiae,SMR1,,
+45,Sulfitobacter_pseudonitzschiae_SMR1.fna,D20-160045,45,Sulfitobacter pseudonitzschiae,SMR1,,
+46,GCF_001456255.1_ASM145625v1_genomic.fna.gz,D20-160046,46,Vibrio natriegens,ATCC 14048,,
+48,GCF_000166275.1_ASM16627v1_genomic.fna.gz,D20-160048,48,Algoriphagus machipongonensis,Pr1r,,
+49,GCA_000026085.fna,D20-160049,49,Pseudoalteromonas haloplanktis (from CIP),Cip,,
+50,2526164557.fna,D20-160050,50,Croceibacter atlanticus,atlcs,,
+51,GCA_000230555.fna,D20-160051,51,Pelagibacterium halotolerans,B2,,
+52,GCA_000511385.fna,D20-160052,52,Phaeobacter gallaeciensis,Pga11,,
+53,2606217322.fna,D20-160053,53,Pseudoalteromonas atlantica,T6C,,
+54,GCA_000026085.fna,D20-160054,54,Pseudoalteromonas haloplanktis,Phalo,,
+56,GCA_000300005.fna,D20-160056,56,Alcanivorax dieselolei,Dies,,
+57,2523533634.fna,D20-160057,57,Halobacillus kuroshimensis,Kuro,,
+58,2623620535.fna,D20-160058,58,Corynebacterium stationis,Cstat,,
+59,2600255073.fna,D20-160059,59,Vibrio azureus,Azure,,
+60,2667527211.fna,D20-160060,60,Pseudomonas abietaniphila,Abie,,
+61,GCA_000009365.fna,D20-160061,61,Alcanivorax borkumensis,Bork,,
+62,2526164535.fna,D20-160062,62,Serratia sp.,Ser,,
+63,2622736468.fna,D20-160063,63,Escherichia coli MRE600,Mre,,
+64,GCA_000010105.fna,D20-160064,64,Rhodococcus erythropolis,eryth,,
+65,GCF_000154725.1_ASM15472v1_genomic.fna.gz,D20-160065,65,Kordia algicida Sohn et al. 2004,NBRC 100336,,
+66,GCF_000153725.1_ASM15372v1_genomic.fna.gz,D20-160066,66,Pelagibaca bermudensis also known as salipiger,DSM 26914,,
+67,GCF_004346105.1_ASM434610v1_genomic.fna.gz,D20-160067,67,Pseudobacteriovorax antillogorgiicola,DSM 103413,,
+68,2523533559.fna,D20-160068,68,Haliea salexigens DSM 19537,Salex,,
+69,GCF_000305785.2_ASM30578v2_genomic.fna.gz,D20-160069,69,Simiduia agarivorans SA1 =,DSM 21679,,
+70,GCF_002222635.1_ASM222263v1_genomic.fna.gz,D20-160070,70,Sulfitobacter pseudonitzschiae (Luca1),SMR1,,
+71,GCF_001942375.1_ASM194237v1_genomic.fna.gz,D20-160071,71,Kocuria sp. CNJ770,DSM 17348,,
+72,GCF_008386315.1_ASM838631v1_genomic.fna.gz,D20-160072,72,Serinicoccus marinus,DSM 15273,,
+73,GCF_000422385.1_ASM42238v1_genomic.fna.gz,D20-160073,73,Microbacterium indicum,DSM 19969,,
+74,2509276020.fna,D20-160074,74,Echinicola vietnamensis,DSM 17526,,
+75,GCF_000410875.1_KCCM90073_genomic.fna.gz,D20-160075,75,Pseudomonas pelagia CL-AP6 also known as halo,DSM 25163,,
+76,GCF_000429405.1_ASM42940v1_genomic.fna.gz,D20-160076,76,Algoriphagus marincola,DSM 16067,,
+77,GCF_002893965.1_ASM289396v1_genomic.fna.gz,D20-160077,77,Rhodococcus qingshengii,DSM 45222,,
+78,GCF_002019595.1_ASM201959v1_genomic.fna.gz,D20-160078,78,Bacillus abyssalis,DSM 25875,,
+79,GCF_000373245.1_ASM37324v1_genomic.fna.gz,D20-160079,79,Echinicola pacifica,DSM 19836,,
+80,GCF_001750285.1_ASM175028v1_genomic.fna.gz,D20-160080,80,Domibacillus iocasae,DSM 29979,,
+81,GCF_006716065.1_ASM671606v1_genomic.fna.gz,D20-160081,81,Salinispora arenicola,DSM 44819,,
+82,650716086.fna,D20-160082,82,Sinorhizobium meliloti DSM 23913,23913,,
+82,2597490345.fna,D20-160082,82,Sinorhizobium meliloti DSM 23913,23913,,
+83,GCF_000696485.1_ASM69648v1_genomic.fna.gz,D20-160083,83,Halomonas campaniensis LS21,DSM 15293,,
+84,GCF_000425205.1_ASM42520v1_genomic.fna.gz,D20-160084,84,Pontibacillus halophilus,DSM 19796,,
+85,GCF_000425825.1_ASM42582v1_genomic.fna.gz,D20-160085,85,Jeotgalicoccus marinus,DSM 19772,,
+86,GCF_001878855.1_ASM187885v1_genomic.fna.gz,D20-160086,86,Poseidonibacter lekithochrous LFT 1.7,DSM 100870,,
+88,GCF_009720545.1_ASM972054v1_genomic.fna.gz,D20-160088,88,Gimesia maris,DSM 8797,,
+90,GCF_009720545.1_ASM972054v1_genomic.fna.gz,D20-160090,90,Gimesia maris,DSM 8797,,
+91,GCF_002080415.1_ASM208041v1_genomic.fna.gz,D20-160091,91,Roseovarius mucosus,nan,,
+92,GCF_002080415.1_ASM208041v1_genomic.fna.gz,D20-160092,92,nan,nan,,
+93,GCF_002080415.1_ASM208041v1_genomic.fna.gz,D20-160093,93,nan,nan,,
