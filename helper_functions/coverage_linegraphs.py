@@ -23,17 +23,21 @@ def parse_depth(depth_input, genome_size):
     # Make an empty array the length of the genome
     depth = [0] * genome_size
     references = set()
+    i = 0
  
     with open(depth_input) as depth_object:
         for row in depth_object:
             genome_id, position, depth_count = row.split()
  
             references.add(genome_id)
+
+            # Can only handle single contigs because the positions repeat, you'll overwrite your depth count
+            # if len(references) > 1:
+            #     raise Exception(' This script only handles one genome - contig.')
  
-            if len(references) > 1:
-                raise Exception(' This script only handles one genome - contig.')
- 
-            depth[int(position)-1] = int(depth_count)
+            # depth[int(position)-1] = int(depth_count)
+            depth[i] = int(depth_count)
+            i += 1
  
     return depth
  
@@ -50,22 +54,27 @@ def plot_depth(depth_report, output_name, plot_title, genome_size, normalize=Fal
         depth_cut_off (int): Plot a line to represent a targeted depth (default = 20).
  
     """
-    data = parse_depth(depth_report, genome_size)
+    x_data = range(0, genome_size)
+    y_data = parse_depth(depth_report, genome_size)
+
+    # Break my data into more manageable bites
+    # How many elements each list should have
+    n = 1000
+
+    final_x = [x_data[i * n:(i + 1) * n] for i in range((len(x_data) + n - 1) // n )]
+    final_y = [y_data[i * n:(i + 1) * n] for i in range((len(y_data) + n - 1) // n )]
+
+    for i in range(len(final_x)):
+        x = final_x[i]
+        y = final_y[i]
+
+        plt.figure(figsize=(50,1))
+        plt.plot(x, y)
+        plt.title(plot_title + "plot # " + str(i))
+        plt.xlabel('Genome Position (bp)')
+        plt.ylabel('Depth')
+
+        plt.savefig(output_name + str(i), bbox_inches='tight', dpi=400)
+        plt.close()
  
-    y_label = "Normalized Depth" if normalize else "Depth"
-    data = [xx / max(data) for xx in data] if normalize else data
- 
-    sns.set(color_codes=True)
-    plt.title(plot_title)
-    ax = plt.subplot(111)
- 
-    sns_plot = sns.lineplot(x=range(len(data)), y=data)
-    sns_plot.set(xlabel='Genome Position (bp)', ylabel=y_label)
- 
-    if not normalize:
-        ax.add_line(lines.Line2D([0, genome_size + 1], [depth_cut_off], color="r"))
- 
-    plt.savefig(output_name, bbox_inches='tight', dpi=400)
-    plt.close()
- 
-    print("Done :)")
+    # print("Done :)")

@@ -1,3 +1,7 @@
+#### HELEN's NOTES TO SELF ####
+# I need to break this script up into helper function to do into the helper function library
+# and a pipeline to go somewhere else
+
 # Modules
 import pandas as pd
 import re

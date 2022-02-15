@@ -1,3 +1,6 @@
+#### Helen's Notes to Self ####
+# Make this a set of functions
+
 import random
 import pandas as pd
 import re

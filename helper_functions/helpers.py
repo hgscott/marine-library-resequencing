@@ -1,3 +1,6 @@
+#### Helen's Notes to Self ####
+# These are the same functions that are in find_genes.py
+
 import re
 
 def countVariants(vcfFileLines):
