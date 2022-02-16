@@ -1,5 +1,4 @@
-#### Helen's Notes to Self ####
-# These are the same functions that are in find_genes.py
+# Functions associated with the functional analysis of VCF files
 
 import re
 
