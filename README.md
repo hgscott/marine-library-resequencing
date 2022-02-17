@@ -14,7 +14,7 @@ export PYTHONPATH=$PYTHONPATH:/projectnb/hfsp/Challenge21/helen/marine-library-r
 ```
 
 ## To Joseline
-So, my code sucks, and I would suggest figuring out how to get the gene names for the SNPs using a pre-existing tool. A few I saw that looked promissing were:
+So, my code sucks, and I would suggest figuring out how to get the gene names for the SNPs using a pre-existing tool. A few I saw that looked promising were:
 - vcf-annotater: https://github.com/rpetit3/vcf-annotator
 - SnpEff: http://pcingola.github.io/SnpEff/
 
@@ -28,7 +28,7 @@ To use vcf-annotater:
 
 You can probably add the vcf-annotator.py file to your python path so that you can run the file from a different directory without typing the whole path but I haven't done that yet.
 
-The website says that it should be able to doone of our VCFs in about 10 sec. so this will be SO MUCH BETTER than my script. 
+The website says that it should be able to do one of our VCFs in about 10 sec. so this will be SO MUCH BETTER than my script. 
 
 
 
