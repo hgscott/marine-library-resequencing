@@ -21,7 +21,7 @@ def countVariants(vcfFileLines):
     return(counter)
 
 
-def nVariantsPerGene(vcfFileLines, geneArray):
+def list_gene_names(vcfFileLines, geneArray):
     """Print the name of every gene with a SNP in it"""
     # Make a list to hold all the gene names
     gene_names = []
@@ -56,7 +56,17 @@ def nVariantsPerGene(vcfFileLines, geneArray):
         if geneName is None:
             continue
         
-        # Print
+        # Add the gene name to the results list
         gene_names.append(geneName.group(1))
 
     return(gene_names)
+
+def SNPs_per_gene():
+    """
+    
+    Args:
+    
+    Returns:
+    
+    """
+    pass
